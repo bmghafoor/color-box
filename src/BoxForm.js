@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const BoxForm = () => {
+const BoxForm = ({ addBox }) => {
   const initialState = { backgroundColor: "", height: "", width: "" };
   const [boxData, setBoxData] = useState(initialState);
 
@@ -11,6 +11,8 @@ const BoxForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    addBox({ ...boxData });
+    setBoxData(initialState);
   };
   return (
     <form onSubmit={handleSubmit}>
@@ -43,6 +45,8 @@ const BoxForm = () => {
         value={boxData.width}
         onChange={handleChange}
       />
+
+      <button>Submit</button>
     </form>
   );
 };
