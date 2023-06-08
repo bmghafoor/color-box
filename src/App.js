@@ -1,9 +1,9 @@
-import Box from "./Box";
+import BoxList from "./BoxList";
 
 function App() {
   return (
     <div>
-      <Box backgroundColor="red" height="30px" width="30px" />
+      <BoxList />
     </div>
   );
 }
