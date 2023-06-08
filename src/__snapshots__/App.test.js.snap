@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="border: 1px solid black;"
+  >
+    <button
+      style="display: inline-block; cursor: pointer;"
+    >
+      X
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot 2`] = `
+<DocumentFragment>
+  <div>
+    <h3>
+      Boxes
+    </h3>
+    <form>
+      <label
+        for="backgroundColor"
+      >
+        Color
+      </label>
+      <input
+        id="backgroundColor"
+        name="backgroundColor"
+        placeholder="Enter Color"
+        type="text"
+        value=""
+      />
+      <label
+        for="height"
+      >
+        Height
+      </label>
+      <input
+        id="height"
+        name="height"
+        placeholder="Enter Height in px"
+        type="text"
+        value=""
+      />
+      <label
+        for="width"
+      >
+        Width
+      </label>
+      <input
+        id="width"
+        name="width"
+        placeholder="Enter Width in px"
+        type="text"
+        value=""
+      />
+      <button>
+        Submit
+      </button>
+    </form>
+    <div>
+      <h4>
+        Here are the boxes
+      </h4>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot 3`] = `
+<DocumentFragment>
+  <form>
+    <label
+      for="backgroundColor"
+    >
+      Color
+    </label>
+    <input
+      id="backgroundColor"
+      name="backgroundColor"
+      placeholder="Enter Color"
+      type="text"
+      value=""
+    />
+    <label
+      for="height"
+    >
+      Height
+    </label>
+    <input
+      id="height"
+      name="height"
+      placeholder="Enter Height in px"
+      type="text"
+      value=""
+    />
+    <label
+      for="width"
+    >
+      Width
+    </label>
+    <input
+      id="width"
+      name="width"
+      placeholder="Enter Width in px"
+      type="text"
+      value=""
+    />
+    <button>
+      Submit
+    </button>
+  </form>
+</DocumentFragment>
+`;
